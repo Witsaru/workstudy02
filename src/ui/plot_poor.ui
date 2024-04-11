@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>551</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>531</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_alltime">
+        <property name="text">
+         <string>select file: </string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_namealltimefile">
+        <property name="text">
+         <string>all_Time_&lt;name&gt;_&lt;lastname&gt;_&lt;index&gt;.csv</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QLineEdit" name="lineEdit_filenamealltime"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="pushButton_alltime">
+        <property name="text">
+         <string>Browse..</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_timepooralert">
+        <property name="text">
+         <string>select file: </string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_nametimepooralertfile">
+        <property name="text">
+         <string>time_poor_alert_&lt;name&gt;_&lt;lastname&gt;_&lt;index&gt;.csv</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QLineEdit" name="lineEdit_filetimepooralert"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="pushButton_timepooralert">
+        <property name="text">
+         <string>Browse..</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="formLayout_3">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_timepoor">
+        <property name="text">
+         <string>select file: </string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_nametimepoor">
+        <property name="text">
+         <string>time_poor_&lt;name&gt;_&lt;lastname&gt;_&lt;index&gt;.csv</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QLineEdit" name="lineEdit_filetimepoor"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="pushButton_timepoor">
+        <property name="text">
+         <string>Browse..</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Plot graph</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

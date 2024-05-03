@@ -1,4 +1,5 @@
 # workstudy02
+# workstudy02/src/csv_data
 เลือกโฟลเดอร์ Teerajate_Panpuek หรือ  Witsarut_Butdee
 *หมายเหตุ 
 ข้อมูลของTeerajate_Panpuek จะบันทึกแบ่งเป็นรอบๆและข้อมูลบางส่วนที่เกิดข้อผิพลาดในการบันทึก
